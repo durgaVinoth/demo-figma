@@ -1,0 +1,174 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner{
+  width:100%;
+  height:100vh;
+  background: url('./component/image/ba.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner_content{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  width:1200px;
+  max-width: 1200px;
+  margin:0 auto;
+  
+}
+.banner_text{
+  width:500px;
+}
+.banner_text h1{
+font-size: 70px;
+color:rgb(4, 116, 116);
+}
+.banner_text p{
+  font-size: 25px;
+  color:rgba(1, 10, 10, 0.596);
+  font-weight: 400;
+  margin-top: 20px;
+  }
+  .navbar{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+  }
+  .navbar_text{
+    display:flex;
+    height:60px;
+    align-items:center;
+    width:1200px;
+    margin:0 auto;
+  }
+  
+  .navbar_ul{
+    width:60%;
+    list-style-type:none;
+    display: flex;
+    justify-content:flex-end;
+  }
+  .navbar_ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 0 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  .btn{
+     text-decoration: none;
+     border: none;
+     outline:none;
+     color:blanchedalmond;
+     font-weight: 700;
+     border-radius: 30px;
+     font-size: 20px;
+     padding:20px 40px;
+  }
+  .btn-one{
+    background:cadetblue;
+  }
+  .btn-two{
+    border:2px solid cadetblue;
+    margin-left: 50px;
+
+  }
+  .banner_btn {
+    margin-top: 35px;
+  }
+  .box{
+    padding:20px;
+    margin-top: 60px;;
+  }
+  .box i{
+    color: cadetblue;
+  }
+  .practice{
+    background-color:rgb(247, 231, 202); ;
+    padding: 15px;
+    margin:0;
+  }
+  .practice h2 {
+    color:cadetblue;
+  }
+  .card-image h5{
+    color:cadetblue;
+  }
+
+  .contact{
+    
+    width:100%;
+  height:90vh;
+  background: url('./component/image/b3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+  .contact h1{
+    color:cadetblue;
+    font-weight: bold;
+  }
+  .business{
+  
+    width:100%;
+    height:90vh;
+    margin-top: 5%;
+  }
+  .business h2 {
+    color:cadetblue;
+
+  }
+  .heading{
+    color:cadetblue;
+    margin-top: 50px;
+    padding: 15px;
+    
+  }
+  .content i{
+    color:teal;
+  }
+  .content b{
+    color:black;
+  }
+  
+.footer-top{
+ background:cadetblue;
+ color: white;
+ 
+}
+.footer-top ul {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 15px;
+}
+.footer-top h4{
+  margin-top: 25px;
+}
+.inner{
+  overflow: hidden;
+
+}
+.inner img{
+  transition: all 1.5s ease;
+
+}
+.inner:hover img{
+transform:scale(1.5)
+}
+.box1 :hover {
+  background-color:cadetblue;
+  color:white;
+}
+ .box1 :hover i{
+  background-color:cadetblue;
+  color:white;
+ }
